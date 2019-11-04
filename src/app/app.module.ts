@@ -4,10 +4,10 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [
+  declarations: [ // Declaracion de los componentes que podemos usar en este modulo
     AppComponent
   ],
-  imports: [
+  imports: [//Para importar otros modulos
     BrowserModule
   ],
   providers: [],
